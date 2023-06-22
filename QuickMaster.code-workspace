@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"dotnet.defaultSolution": "QuickMaster.sln",
+		"[csharp]": {
+			"editor.maxTokenizationLineLength": 2500,
+			"editor.inlineSuggest.suppressSuggestions": false,
+			"editor.formatOnSave": true,
+			"editor.defaultFormatter": "ms-dotnettools.csharp",
+		}
+	}
+}
