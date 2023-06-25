@@ -18655,8 +18655,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/shusuke/work/QuickMaster/Views/Book/Edit.cshtml",
+      "TargetPath": "Views\\Book\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/shusuke/work/QuickMaster/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/shusuke/work/QuickMaster/Views/Book/Index.cshtml",
+      "TargetPath": "Views\\Book\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/shusuke/work/QuickMaster/Views/Book/Create.cshtml",
+      "TargetPath": "Views\\Book\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18667,6 +18682,16 @@
     {
       "FilePath": "/home/shusuke/work/QuickMaster/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/shusuke/work/QuickMaster/Views/Book/Details.cshtml",
+      "TargetPath": "Views\\Book\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/shusuke/work/QuickMaster/Views/Book/Delete.cshtml",
+      "TargetPath": "Views\\Book\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -45,10 +45,14 @@
 #### 次のコマンドを使用してツールを呼び出せます。dotnet-aspnet-codegenerator
 #### ツール 'dotnet-aspnet-codegenerator' (バージョン '7.0.7') が正常にインストールされました。
 
+### dotnet add package Microsoft.EntityFrameworkCore
+### dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 ### dotnet add package Pomelo.EntityFrameworkCore.MySql
 ### dotnet add package Microsoft.EntityFrameworkCore.Design
 ### dotnet add package Microsoft.EntityFrameworkCore.Tools
 ### dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+### dotnet add package Microsoft.SqlServer → 不要かも
+### (※) Microsoft.EntityFrameworkCore　Microsoft.EntityFrameworkCore.SqlServer　→ MySQLを使用するとしても、スキャフォールディングを使用するさいに必要。
 
 ## マイグレーション
 ### export PATH="$PATH:/home/shusuke/.dotnet/tools"
@@ -57,3 +61,8 @@
 
 ## MariaDBのユーザ
 ### GRANT ALL PRIVILEGES ON QuickMaster.* TO dotnetusr@localhost IDENTIFIED BY 'dotnetpass';
+
+##  スキャフォールディング
+### export PATH="$PATH:/home/shusuke/.dotnet/tools"
+### dotnet aspnet-codegenerator controller --project "./" --controllerName BookController --relativeFolderPath Controllers --useAsyncActions --model Book --dataContext MyContext --useDefaultLayout --referenceScriptLibraries
+### 画面での確認 http://localhost:5220/book
